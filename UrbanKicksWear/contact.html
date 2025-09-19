@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanKicksWear | Get in Touch</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <header>
+        <div class="logo">UrbanKicksWear</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Sneakers</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                
+            </ul>
+        </nav>
+        <div class="cart-icon" id="cartIcon">🛒 <span id="cartCount">0</span></div>
+        <div class="burger" id="burger">☰</div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Get in Touch</h1>
+            <p>We are here to help. Drop us a line.</p>
+        </section>
+
+        <section class="contact-content">
+            <div class="contact-form">
+                <form id="contactForm">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>📍 Visit Us</h3>
+                <p><strong>Urban KicksWear Store</strong><br>Moi Ave<br>Nairobi, 9400-00200</p>
+                <p><strong>Hours</strong><br>Mon-Sat: 11AM - 8PM<br>Sun: 12PM - 6PM</p>    
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">How long does shipping take?</button>
+                    <div class="faq-answer">
+                        <p>Standard shipping: 3-5 business days. Express: 1-2 days. International: 7-14 days.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What is your return policy?</button>
+                    <div class="faq-answer">
+                        <p>30-day returns for unworn kicks in original packaging. Free return shipping!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How do I clean my UrbanKicks?</button>
+                    <div class="faq-answer">
+                        <p>Use a soft brush + mild soap. Never machine wash. Air dry only.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 UrbanKicksWear. All rights reserved.</p>
+        
+    </footer>
+
+    <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+    <button id="backToTop">↑</button>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/faq-accordion.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>

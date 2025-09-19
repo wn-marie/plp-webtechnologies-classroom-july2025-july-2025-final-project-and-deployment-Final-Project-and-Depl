@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanKicksWear | Shop the Collection</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <header>
+        <div class="logo">UrbanKicksWear</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Sneakers</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+        <div class="cart-icon" id="cartIcon">🛒 <span id="cartCount">0</span></div>
+        <div class="burger" id="burger">☰</div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Shop the Latest Drops</h1>
+            <p>Limited stock. Premium comfort. Bold style.</p>
+        </section>
+
+        <div class="filters">
+            <button data-filter="all" class="active">All</button>
+            <button data-filter="lifestyle">Lifestyle</button>
+            <button data-filter="sneaker">Sneaker</button>
+            <button data-filter="streetwear">Streetwear</button>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+            <!-- Products will be inserted here by JS -->
+        </div>
+
+        <!-- Modal for Quick View -->
+        <div id="productModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modalDetails"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 UrbanKicksWear. All rights reserved.</p>
+       
+    </footer>
+
+    <button id="backToTop">↑</button>
+    <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>
