@@ -4,14 +4,14 @@
 
 A responsive, interactive, multipage product showcase website for **UrbanKicksWear** — a fictional premium urban sneaker brand. Built with **HTML5, CSS3, and JavaScript** as a final web development assignment.
 
-🔗 **Live URL**: [https://yourusername.github.io/urban-kicks](https://yourusername.github.io/urban-kicks)  
-*(Replace with your actual deployed URL after publishing)*
+🔗 **Live URL**: https://urbankickswear.netlify.app/
+
 
 ---
 
 ## 🎯 Project Purpose
 
-UrbanKicks is designed to showcase a line of stylish, eco-conscious sneakers targeting streetwear enthusiasts. This project demonstrates:
+UrbanKicksWear is designed to showcase a line of stylish, eco-conscious sneakers targeting streetwear enthusiasts. This project demonstrates:
 
 - Multipage website architecture (Home, Products, About, Contact)
 - Fully responsive mobile-first design
@@ -36,7 +36,6 @@ Perfect for portfolio, academic submission, or real-world product mockup.
 ### 🖼️ Assets
 - `/images/hero/hero-bg.jpeg` — Hero background image (urban sneaker lifestyle)
 - `/images/products/` — Sneaker product images (placeholders or custom)
-- `/images/icons/` — UI and social icons:
 
 ---
 
@@ -65,6 +64,7 @@ Perfect for portfolio, academic submission, or real-world product mockup.
 ---
 
 ## 📂 Code Organization
+ ```
 urban-kicks/
 │
 ├── index.html → Home Page
@@ -85,23 +85,19 @@ urban-kicks/
 │ └── form-validation.js → Form validation (Contact page)
 │
 ├── /images
-│ ├── hero/hero-bg.jpg → Homepage background
+│ ├── hero/hero-bg.jpeg → Homepage background
 │ ├── products/ → Sneaker images
-│ ├── logo.svg → Brand logo
-│ └── icons/ → Social & UI icons (instagram, twitter, tiktok, cart)
 │
-└── README.md → You are here!
-
+└── readme.md → You are here!
+ ```
 
 ---
 
 ## 🚀 Deployment
 
-Deployed via **GitHub Pages**:
+Deployed via **Netlify**:
 
-1. Repository pushed to GitHub
-2. Settings → Pages → Branch: `main` → Folder: `/ (root)`
-3. Site live at: `https://yourusername.github.io/urban-kicks`
+Site live at: `https://urbankickswear.netlify.app/`
 
 > ✅ All links, scripts, and images work across pages.  
 > ✅ Tested on Chrome, Firefox, Safari, and mobile devices.  
@@ -116,16 +112,13 @@ Deployed via **GitHub Pages**:
 - [x] Interactive JavaScript features (cart, modals, filters, dark mode)
 - [x] Clean, organized, commented code with proper folder structure
 - [x] Live deployment with working URL
-- [x] README explaining purpose, structure, features, and live link
+- [x] readme explaining purpose, structure, features, and live link
 
 ---
 
 ## 🧑‍💻 Built By
 
-> **Your Name**  
-> ✉️ [your-email@example.com](mailto:your-email@example.com)  
-> 👨‍💻 [GitHub Profile](https://github.com/wn-marie)
-
+> MARY WAIRIMU  
 ---
 
-> 🌟 “UrbanKicks” — Where style meets the street. Built with passion, pixels, and purpose.
+> 🌟 “UrbanKicksWear” — Where style meets the street. Built with passion, pixels, and purpose.
